@@ -8,13 +8,23 @@ const PORT = 4000;
 const publicPath = path.join(process.cwd(), "src", "public", "assets");
 const app = express();
 
-app.use(cors(
-    {
-        origin: "https://ghifariezraramadhan-portofolio.vercel.app/",
-        methods: ["GET"],
-        credentials: true
-    }
-));
+const allowedOrigins = [
+    "https://ghifariezraramadhan-portofolio.vercel.app",
+    "http://localhost:3000"
+];
+
+app.use(cors({
+    origin: function (origin, callback) {
+        // Kalau tidak ada origin (misal dari Postman), izinkan
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(new Error("Not allowed by CORS"));
+        }
+    },
+    methods: ["GET"],
+    credentials: true
+}));  
 app.use(express.json());
 app.use("/assets", express.static(publicPath));
 app.use(logs);
