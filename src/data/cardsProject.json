@@ -1,14 +1,14 @@
 [
     {
-        "image": "../assets/bookbites.png",
+        "image": "https://rest-api-fjjx.onrender.com/assets/bookbites.png",
         "title": "Book Bites",
         "description": "Book Notes is a full-stack web application designed to help avid readers organize and retain key insights from the non-fiction books they read. Users can record notes, rate books, track reading dates, and view book covers via the Open Library Covers API. The app offers a clean, user-friendly interface where books can be searched, sorted, updated, and deleted with ease.",
         "techStack": [
-            "../assets/techstack/javascript.svg",
-            "../assets/techstack/ejs.svg",
-            "../assets/techstack/nodejs.svg",
-            "../assets/techstack/expressjs.svg",
-            "../assets/techstack/psql.svg"
+            "https://rest-api-fjjx.onrender.com/assets/techstack/javascript.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/ejs.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/nodejs.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/expressjs.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/psql.svg"
         ],
         "sourceCode": "https://github.com/Ghifariezra/bookbites",
         "livePreview": "https://bookbites.onrender.com",
@@ -16,60 +16,60 @@
         "status": "Individual: is not optimized for responsive"
     },
     {
-        "image": "../assets/web-portofolio.png",
+        "image": "https://rest-api-fjjx.onrender.com/assets/web-portofolio.png",
         "title": "Portofolio Website",
         "description": "A personal portfolio website showcasing your professional profile as a Tech Generalist with a minimalist and responsive design. Features intuitive navigation, contact information, tech stack display, and 3D avatar. Built using modern web technologies to reflect your skills and experience in web development.",
         "techStack": [
-            "../assets/techstack/javascript.svg",
-            "../assets/techstack/tailwind.svg",
-            "../assets/techstack/react.svg",
-            "../assets/techstack/vite.svg"
+            "https://rest-api-fjjx.onrender.com/assets/techstack/javascript.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/tailwind.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/react.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/vite.svg"
         ],
         "sourceCode": "https://github.com/Ghifariezra/portofolio-web",
-        "livePreview": "/",
+        "livePreview": "https://ghifariezraramadhan-portofolio.vercel.app/",
         "category": "Frontend",
         "status": "Individual"
     },
     {
-        "image": "../assets/ETL.png",
+        "image": "https://rest-api-fjjx.onrender.com/assets/ETL.png",
         "title": "ETL",
         "description": "A data pipeline implementing standard Extract-Transform-Load processes for data processing. Utilizes Python for extracting and transforming data from various sources, then loading results into target databases. Includes interactive data visualizations to facilitate analysis and result presentation.",
         "techStack": [
-            "../assets/techstack/py.svg",
-            "../assets/techstack/psql.svg",
-            "../assets/techstack/looker.svg"
+            "https://rest-api-fjjx.onrender.com/assets/techstack/py.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/psql.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/looker.svg"
         ],
         "sourceCode": "https://github.com/Ghifariezra/digitalskola-dataeng/tree/main/Project/etl-project",
         "category": "Data",
         "status": "Collaboration"
     },
     {
-        "image": "../assets/ELT.png",
+        "image": "https://rest-api-fjjx.onrender.com/assets/ELT.png",
         "title": "ELT",
         "description": "A modern data pipeline implementing Extract-Load-Transform architecture with GitHub as the data source. The workflow extracts data from GitHub repositories, loads it into a data warehouse, and transforms it using dbt for analytics. Leverages Python and Snowflake for efficient data processing, with final results visualized through Looker Studio for interactive business intelligence.",
         "techStack": [
-            "../assets/techstack/git.svg",
-            "../assets/techstack/pandas.svg",
-            "../assets/techstack/snowflake.svg",
-            "../assets/techstack/dbt.svg",
-            "../assets/techstack/looker.svg"
+            "https://rest-api-fjjx.onrender.com/assets/techstack/git.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/pandas.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/snowflake.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/dbt.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/looker.svg"
         ],
         "sourceCode": "https://github.com/Ghifariezra/digitalskola-dataeng/tree/main/Project/elt-project/elt-snowflake",
         "category": "Data",
         "status": "Collaboration"
     },
     {
-        "image": "../assets/batch-processing.jpg",
+        "image": "https://rest-api-fjjx.onrender.com/assets/batch-processing.jpg",
         "title": "Batch Processing",
         "description": "A containerized data pipeline solution for handling batch data processes. Utilizes Docker for containerization, PostgreSQL for data storage, and Airflow for workflow orchestration. Features a complete ETL cycle with dbt for data transformation and Looker Studio for visualization. Designed for scalable, maintainable data processing with modern cloud-native tooling.",
         "techStack": [
-            "../assets/techstack/psql.svg",
-            "../assets/techstack/docker.svg",
-            "../assets/techstack/airflow.svg",
-            "../assets/techstack/pandas.svg",
-            "../assets/techstack/snowflake.svg",
-            "../assets/techstack/dbt.svg",
-            "../assets/techstack/looker.svg"
+            "https://rest-api-fjjx.onrender.com/assets/techstack/psql.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/docker.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/airflow.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/pandas.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/snowflake.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/dbt.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/looker.svg"
         ],
         "sourceCode": "https://github.com/Ghifariezra/digitalskola-dataeng/tree/main/Project/airflow-dbt-docker",
         "category": "Data",
