@@ -7,8 +7,20 @@
         "https://rest-api-fjjx.onrender.com/assets/techstack/tailwind.vite.svg"
     ],
     "socialMedia": [
-        "https://rest-api-fjjx.onrender.com/assets/telegram.png",
-        "https://rest-api-fjjx.onrender.com/assets/linkedin.png",
-        "https://rest-api-fjjx.onrender.com/assets/techstack/git.svg"
+        {
+            "name": "Telegram",
+            "icon": "https://rest-api-fjjx.onrender.com/assets/telegram.png",
+            "url": "https://t.me/GhifariEzR"
+        },
+        {
+            "name": "Linkedin",
+            "icon": "https://rest-api-fjjx.onrender.com/assets/linkedin.png",
+            "url": "https://www.linkedin.com/in/ghifariezraramadhan/"
+        },
+        {
+            "name": "Github",
+            "icon": "https://rest-api-fjjx.onrender.com/assets/techstack/git.svg",
+            "url": "https://github.com/Ghifariezra"
+        }
     ]
 }
