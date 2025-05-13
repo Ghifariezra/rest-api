@@ -8,8 +8,18 @@ const PORT = 4000;
 const publicPath = path.join(process.cwd(), "src", "public", "assets");
 const app = express();
 
+const allowedOrigins = [
+    "https://ghifariezraramadhan-portofolio.vercel.app"
+];
+
 app.use(cors({
-    origin: "https://ghifariezraramadhan-portofolio.vercel.app",
+    origin: function (origin, callback) {
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(new Error("Not allowed by CORS"));
+        }
+    },
     methods: ["GET"],
     credentials: true
 }));  
