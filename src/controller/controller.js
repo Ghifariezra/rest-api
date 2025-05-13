@@ -32,7 +32,7 @@ const certificateController = (req, res) => {
 }
 
 const heroController = (req, res) => {
-    const certificatePath = path.join(process.cwd(), "src", "data", "certificate.json");
+    const certificatePath = path.join(process.cwd(), "src", "data", "hero.json");
 
     fs.readFile(certificatePath, "utf-8", (err, data) => {
         if (err) {
