@@ -1,0 +1,14 @@
+{
+    "imageProfile": "https://rest-api-fjjx.onrender.com/assets/avatar-profile.png",
+    "skills": [
+        "https://rest-api-fjjx.onrender.com/assets/techstack/javascript.svg",
+        "https://rest-api-fjjx.onrender.com/assets/techstack/react.svg",
+        "https://rest-api-fjjx.onrender.com/assets/techstack/tailwind.svg.svg",
+        "https://rest-api-fjjx.onrender.com/assets/techstack/tailwind.vite.svg"
+    ],
+    "socialMedia": [
+        "https://rest-api-fjjx.onrender.com/assets/telegram.png",
+        "https://rest-api-fjjx.onrender.com/assets/linkedin.png",
+        "https://rest-api-fjjx.onrender.com/assets/techstack/git.svg"
+    ]
+}
