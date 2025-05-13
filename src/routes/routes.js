@@ -1,8 +1,12 @@
 import express from "express";
-import cardsController from "../controller/cards.js";
+import {
+    greetingController,
+    cardsController
+} from "../controller/cards.js";
 
 const router = express.Router();
 
+router.get("/", greetingController);
 router.get("/api/cards", cardsController);
 
 export default router;

@@ -1,9 +1,15 @@
 import fs from "fs";
 import path from "path";
 
-const cardPath = path.join(process.cwd(), "src", "data", "cardsProject.json");
+const greetingController = (req, res) => {
+    res.send(
+        "<h1>Welcome to my Rest API</h1>"
+    );
+}
 
 const cardsController = (req, res) => {
+    const cardPath = path.join(process.cwd(), "src", "data", "cardsProject.json");
+
     fs.readFile(cardPath, "utf-8", (err, data) => {
         if (err) {
             res.status(500).send(err);
@@ -13,4 +19,4 @@ const cardsController = (req, res) => {
     });
 }
 
-export default cardsController
+export { greetingController, cardsController }
