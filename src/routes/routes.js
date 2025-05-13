@@ -4,11 +4,16 @@ import {
     cardsController,
     certificateController
 } from "../controller/controller.js";
+import dotenv from "dotenv";
 
+dotenv.config();
 const router = express.Router();
 
+console.log(process.env.CARDS);
+console.log(process.env.CERTIFICATE);
+
 router.get("/", greetingController);
-router.get("/api/cards", cardsController);
-router.get("/api/certificate", certificateController);
+router.get(process.env.CARDS, cardsController);
+router.get(process.env.CERTIFICATE, certificateController);
 
 export default router;

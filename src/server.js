@@ -3,14 +3,16 @@ import cors from "cors";
 import routes from "./routes/routes.js";
 import logs from "./middleware/logs.js";
 import path from "path";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const PORT = 4000;
 const publicPath = path.join(process.cwd(), "src", "public", "assets");
 const app = express();
 
 const allowedOrigins = [
-    "https://ghifariezraramadhan-portofolio.vercel.app",
-    "http://localhost:3000"
+    process.env.ALLOWED
 ];
 
 app.use(cors({
