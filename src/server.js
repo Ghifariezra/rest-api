@@ -9,8 +9,7 @@ const publicPath = path.join(process.cwd(), "src", "public", "assets");
 const app = express();
 
 const allowedOrigins = [
-    "https://ghifariezraramadhan-portofolio.vercel.app",
-    "http://localhost:3000"
+    "https://ghifariezraramadhan-portofolio.vercel.app"
 ];
 
 app.use(cors({
