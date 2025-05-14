@@ -1,19 +1,16 @@
 [
     {
-        "image": "https://rest-api-fjjx.onrender.com/assets/bookbites.png",
-        "title": "Book Bites",
-        "description": "Book Notes is a full-stack web application designed to help avid readers organize and retain key insights from the non-fiction books they read. Users can record notes, rate books, track reading dates, and view book covers via the Open Library Covers API. The app offers a clean, user-friendly interface where books can be searched, sorted, updated, and deleted with ease.",
+        "image": "https://rest-api-fjjx.onrender.com/assets/rest-api.png",
+        "title": "Rest-API Portfolio",
+        "description": "This REST API is a lightweight backend service created specifically to serve static data for my personal portfolio website. Instead of hardcoding content like social media links and icons in the frontend, this API allows my React-based frontend to dynamically fetch information in a clean, structured, and reusable way.",
         "techStack": [
             "https://rest-api-fjjx.onrender.com/assets/techstack/javascript.svg",
-            "https://rest-api-fjjx.onrender.com/assets/techstack/ejs.svg",
             "https://rest-api-fjjx.onrender.com/assets/techstack/nodejs.svg",
-            "https://rest-api-fjjx.onrender.com/assets/techstack/expressjs.svg",
-            "https://rest-api-fjjx.onrender.com/assets/techstack/psql.svg"
+            "https://rest-api-fjjx.onrender.com/assets/techstack/expressjs.svg"
         ],
-        "sourceCode": "https://github.com/Ghifariezra/bookbites",
-        "livePreview": "https://bookbites.onrender.com",
-        "category": "Fullstack",
-        "status": "Individual: is not optimized for responsive"
+        "sourceCode": "https://github.com/Ghifariezra/rest-api",
+        "category": "Backend",
+        "status": "Individual"
     },
     {
         "image": "https://rest-api-fjjx.onrender.com/assets/web-portofolio.png",
@@ -29,6 +26,22 @@
         "livePreview": "https://ghifariezraramadhan-portofolio.vercel.app/",
         "category": "Frontend",
         "status": "Individual"
+    },
+    {
+        "image": "https://rest-api-fjjx.onrender.com/assets/bookbites.png",
+        "title": "Book Bites",
+        "description": "Book Notes is a full-stack web application designed to help avid readers organize and retain key insights from the non-fiction books they read. Users can record notes, rate books, track reading dates, and view book covers via the Open Library Covers API. The app offers a clean, user-friendly interface where books can be searched, sorted, updated, and deleted with ease.",
+        "techStack": [
+            "https://rest-api-fjjx.onrender.com/assets/techstack/javascript.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/ejs.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/nodejs.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/expressjs.svg",
+            "https://rest-api-fjjx.onrender.com/assets/techstack/psql.svg"
+        ],
+        "sourceCode": "https://github.com/Ghifariezra/bookbites",
+        "livePreview": "https://bookbites.onrender.com",
+        "category": "Fullstack",
+        "status": "Individual: is not optimized for responsive"
     },
     {
         "image": "https://rest-api-fjjx.onrender.com/assets/ETL.png",

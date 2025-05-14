@@ -15,17 +15,23 @@ const allowedOrigins = [
     process.env.ALLOWED
 ];
 
+// app.use(cors({
+//     origin: function (origin, callback) {
+//         if (!origin || allowedOrigins.includes(origin)) {
+//             callback(null, true);
+//         } else {
+//             callback(new Error("Not allowed by CORS"));
+//         }
+//     },
+//     methods: ["GET"],
+//     credentials: true
+// }));  
+
 app.use(cors({
-    origin: function (origin, callback) {
-        if (!origin || allowedOrigins.includes(origin)) {
-            callback(null, true);
-        } else {
-            callback(new Error("Not allowed by CORS"));
-        }
-    },
+    origin: "http://localhost:3000",
     methods: ["GET"],
     credentials: true
-}));  
+}));
 app.use(express.json());
 app.use("/assets", express.static(publicPath));
 app.use(logs);
