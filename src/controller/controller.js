@@ -43,4 +43,16 @@ const heroController = (req, res) => {
     });
 }
 
-export { greetingController, cardsController, certificateController, heroController };
+const quotesController = (req, res) => {
+    const quotesPath = path.join(process.cwd(), "src", "data", "quotes.json");
+
+    fs.readFile(quotesPath, "utf-8", (err, data) => {
+        if (err) {
+            res.status(500).send(err);
+        } else {
+            res.json(JSON.parse(data));
+        }
+    });
+}
+
+export { greetingController, cardsController, certificateController, heroController, quotesController };

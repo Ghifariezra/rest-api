@@ -27,7 +27,7 @@ app.use(cors({
     credentials: true
 }));  
 
-// For development
+// // For development
 // app.use(cors({
 //     origin: "http://localhost:3000",
 //     methods: ["GET"],

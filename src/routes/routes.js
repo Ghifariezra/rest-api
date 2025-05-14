@@ -3,7 +3,8 @@ import {
     greetingController,
     cardsController,
     certificateController,
-    heroController
+    heroController,
+    quotesController
 } from "../controller/controller.js";
 import dotenv from "dotenv";
 
@@ -17,5 +18,6 @@ router.get("/", greetingController);
 router.get(process.env.CARDS, cardsController);
 router.get(process.env.CERTIFICATE, certificateController);
 router.get(process.env.HERO, heroController);
+router.get(process.env.QUOTES, quotesController);
 
 export default router;
