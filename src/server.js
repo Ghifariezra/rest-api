@@ -25,7 +25,7 @@ app.use(cors({
     },
     methods: ["GET"],
     credentials: true
-}));  
+}));
 
 // // For development
 // app.use(cors({
